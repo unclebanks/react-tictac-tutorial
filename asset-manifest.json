@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-tictac-tutorial/static/css/main.e53ffe02.chunk.css",
+    "main.js": "/react-tictac-tutorial/static/js/main.be526d0a.chunk.js",
+    "main.js.map": "/react-tictac-tutorial/static/js/main.be526d0a.chunk.js.map",
+    "runtime-main.js": "/react-tictac-tutorial/static/js/runtime-main.8fae44fb.js",
+    "runtime-main.js.map": "/react-tictac-tutorial/static/js/runtime-main.8fae44fb.js.map",
+    "static/js/2.cedf4652.chunk.js": "/react-tictac-tutorial/static/js/2.cedf4652.chunk.js",
+    "static/js/2.cedf4652.chunk.js.map": "/react-tictac-tutorial/static/js/2.cedf4652.chunk.js.map",
+    "index.html": "/react-tictac-tutorial/index.html",
+    "static/css/main.e53ffe02.chunk.css.map": "/react-tictac-tutorial/static/css/main.e53ffe02.chunk.css.map",
+    "static/js/2.cedf4652.chunk.js.LICENSE.txt": "/react-tictac-tutorial/static/js/2.cedf4652.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fae44fb.js",
+    "static/js/2.cedf4652.chunk.js",
+    "static/css/main.e53ffe02.chunk.css",
+    "static/js/main.be526d0a.chunk.js"
+  ]
+}
