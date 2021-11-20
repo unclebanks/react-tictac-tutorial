@@ -1,0 +1,7 @@
+#navbarContainer {
+    grid-column: 1 / 4;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
