@@ -16,16 +16,25 @@ class Board extends React.Component {
         this.state = {
             squares: Array(9).fill(null),
             xIsNext: true,
-            wins: 0,
+            wins: 1,
             losses: 0,
         };
     }
     handleClick(i) {
         const squares = this.state.squares.slice();
-        if (calculateWinner(squares) || squares[i]) {
+        if(squares[i]) {
             return;
         }
         squares[i] = this.state.xIsNext ? 'X' : 'O';
+        if (calculateWinner(squares)) {
+            this.setState({
+                wins: this.state.wins+1,
+                squares: Array(9).fill(null),
+            })
+            // window.reload();
+            console.log(this.state.wins);
+            return;
+        }
         this.setState({
             squares: squares,
             xIsNext: !this.state.xIsNext,
